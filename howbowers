@@ -1,0 +1,60 @@
+hint1
+people file includes name, gender, age, and address
+interviews is a directory of many interviews
+memberships also a directory of card files with names of cardholders
+streets is a directory of street files with garbage inside the files
+vehicles is a file with license plate, make, color, owner, height, weight
+
+note that the perp is at 6' tall
+any cars owned by people 6' tall or taller could be owned by the perp
+The Annabels are all car owners
+
+
+
+hint2
+found the following CLUEs in the crimescene file
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+
+hint3
+Annabel is our potential witness. We need to track her down.
+There are four Annabels that are car owners.
+
+hint4
+The addresses of the Annabels are found in the people file
+Annabel Sun	F	26	Hart Place, line 40
+Oluwasegun Annabel	M	37	Mattapan Street, line 173
+Annabel Church	F	38	Buckingham Place, line 179
+Annabel Fuglsang	M	40	Haley Street, line 176
+
+
+
+When you open Hart Place, there is a clue (upper case) to look at Interview #47246024 -- this tells us the witness is NOT Annabel Sun
+
+Interview #699607 -- Did not see the shooter but saw a car pulling away that was a blue Honda, with a license plate that starts with "L337" and ends with "9"
+
+There are only two license plates from vehicles that fit the criteria:
+
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+
+skip to hint 8
+cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+
+Germuska does not have a library card
+Bowers has memberships to all
+
+BOWERS!!!
+
+
+
